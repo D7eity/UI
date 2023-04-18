@@ -440,7 +440,7 @@ local Shadow_3 = Instance.new("ImageLabel")
             local UIListLayout = Instance.new("UIListLayout")
             local UIPadding = Instance.new("UIPadding")
           
-                        Tab.Name = "Tab"
+            Tab.Name = "Tab"
             Tab.Parent = TabList
             Tab.BackgroundColor3 = Color3.fromRGB(129, 145, 255)
             Tab.BackgroundTransparency = 1
@@ -876,7 +876,7 @@ local Shadow_3 = Instance.new("ImageLabel")
                             State = not State
                             pcall(Callback, State)
         
-                            local NewColour = State and Color3.fromRGB(255,182,193)  or Color3.fromRGB(40,40,40) 
+                            local NewColour = State and Color3.fromRGB(129, 145, 255)  or Color3.fromRGB(40,40,40) 
                             local NewTrans = State and 0 or 90 
                             local NewImage  = State and 0 or 1 
                             TweenService:Create(Shadow,TweenInfo.new(.25), { ImageTransparency = NewImage }):Play()
