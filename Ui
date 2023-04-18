@@ -613,7 +613,7 @@ local Shadow_3 = Instance.new("ImageLabel")
             
             Stroke.Parent = ButtonElement
             Stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-            Stroke.Color = Color3.fromRGB(255,182,193)
+            Stroke.Color = Color3.fromRGB(129, 145, 255)
             Stroke.LineJoinMode = Enum.LineJoinMode.Round
             Stroke.Thickness = .6
             Stroke.Transparency = 1 
@@ -628,7 +628,7 @@ local Shadow_3 = Instance.new("ImageLabel")
                 pcall(function()
                     Callback()
                 end)
-                CircleAnim(ButtonElement,Color3.fromRGB(255,182,193),Color3.fromRGB(55,55,55))
+                CircleAnim(ButtonElement,Color3.fromRGB(129, 145, 255),Color3.fromRGB(55,55,55))
             end)
             end
 
@@ -723,11 +723,10 @@ local Shadow_3 = Instance.new("ImageLabel")
 
                 Stroke.Parent = dropItem
             Stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-            Stroke.Color = Color3.fromRGB(255,182,193)
+            Stroke.Color = Color3.fromRGB(129, 145, 255)
             Stroke.LineJoinMode = Enum.LineJoinMode.Round
             Stroke.Thickness = .6
             Stroke.Transparency = 1 
-
             dropItem.MouseEnter:Connect(function(x, y)
                 TweenService:Create(Stroke,TweenInfo.new(.2), { Transparency = 0 }):Play()
             end)
@@ -862,7 +861,7 @@ local Shadow_3 = Instance.new("ImageLabel")
                 if TDefault then
                     pcall(Callback, State)
                     check.Rotation = 0 
-                    Tracker.BackgroundColor3 = Color3.fromRGB(255,182,193)
+                    Tracker.BackgroundColor3 = Color3.fromRGB(129, 145, 255)
                     Shadow.ImageTransparency = 0
                         State = true
                     else
@@ -1154,7 +1153,7 @@ local Shadow_3 = Instance.new("ImageLabel")
     
                     Stroke.Parent = dropItem
                     Stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-                    Stroke.Color = Color3.fromRGB(255,182,193)
+                    Stroke.Color = Color3.fromRGB(129, 145, 255)
                     Stroke.LineJoinMode = Enum.LineJoinMode.Round
                     Stroke.Thickness = .6
                     Stroke.Transparency = 1
@@ -1299,7 +1298,7 @@ local Shadow_3 = Instance.new("ImageLabel")
 
             Stroke.Parent = Input
             Stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-            Stroke.Color = Color3.fromRGB(255,182,193)
+            Stroke.Color = Color3.fromRGB(129, 145, 255)
             Stroke.LineJoinMode = Enum.LineJoinMode.Round
             Stroke.Thickness = .6
             Stroke.Transparency = 1 
@@ -1381,7 +1380,7 @@ local Shadow_3 = Instance.new("ImageLabel")
 
             Stroke.Parent = Input
             Stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-            Stroke.Color = Color3.fromRGB(255,182,193)
+            Stroke.Color = Color3.fromRGB(129, 145, 255)
             Stroke.LineJoinMode = Enum.LineJoinMode.Round
             Stroke.Thickness = .6
             Stroke.Transparency = 1 
